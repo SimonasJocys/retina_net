@@ -6,7 +6,7 @@
  "TRAIN_CSV": "../retina_net/data/processed/train.csv", 
  "VAL_CSV": "../retina_net/data/processed/val.csv", 
  "CLASSES_CSV": "../retina_net/data/processed/classes.csv",
- "SNAPSHOT_DIR": "./snapshots/",
- "MODEL_50": "../retina_net/snapshots/resnet50_csv_25.h5",
- "MODEL_101": "../retina_net/snapshots/resnet101_csv_25.h5",
- "SUBMISSION_DIR": "../retina_net/submissions/"}
+ "SNAPSHOT_DIR": "../working/",
+ "MODEL_50": "../working/*.h5",
+ "MODEL_101": "../working/*.h5",
+ "SUBMISSION_DIR": "../working/"}
