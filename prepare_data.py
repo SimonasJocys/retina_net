@@ -10,6 +10,8 @@ import pandas as pd
 from sklearn.model_selection import StratifiedKFold
 import util
 
+print('wtf')
+
 sz = 1000
 with open('settings.json') as json_data_file:
     json_data = json.load(json_data_file)
