@@ -3,12 +3,19 @@
 Script for preparing data for the RSNA Pneumonia Detection Challenge
 """
 import json
+print('1')
 import glob
+print('2')
 import os
+print('3')
 from collections import defaultdict
+print('4')
 import pandas as pd
+print('5')
 from sklearn.model_selection import StratifiedKFold
+print('6')
 import util
+print('7')
 
 print('wtf')
 
