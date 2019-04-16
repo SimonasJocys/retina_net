@@ -78,4 +78,5 @@ class Evaluate(keras.callbacks.Callback):
 
         if self.verbose == 1:
             print(f'Thresh: {y_thresh:.3f}  Score: {y_rsna_score:.5f}  Se: {y_se:.5f} Sp: {y_sp:.5f} Youden: {max_youden:.5f}')
+            #print('lol')
             #print('mAP: {:.4f}'.format(self.mean_ap))
