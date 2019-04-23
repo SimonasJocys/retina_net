@@ -1,1 +1,1 @@
-./train.py --backbone=resnet101 --batch-size=8 --steps=2500 --epochs=10 --no-snapshots --no-evaluation --image-min-side=224 --random-transform csv
+./train.py --backbone=resnet101 --batch-size=8 --steps=25 --epochs=1 --no-snapshots --no-evaluation --image-min-side=224 --random-transform csv
